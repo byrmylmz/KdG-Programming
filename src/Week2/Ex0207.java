@@ -2,6 +2,8 @@ package Week2;
 
 import java.util.Scanner;
 
+
+
 public class Ex0207 {
 
     public static void main(String[] arg) {
