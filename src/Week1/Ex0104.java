@@ -3,7 +3,7 @@ package Week1;
 import java.util.Scanner;
 
 public class Ex0104 {
-
+    //Todo Ex104
     public static void main(String[] arg){
 
         String firstName;
