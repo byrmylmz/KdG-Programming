@@ -2,7 +2,7 @@ package Week2;
 
 import java.util.Scanner;
 
-public class Ex0208 {
+public class Ex_02_08_Digits_v2 {
 
     public static void main(String[] arg) {
         final int MINIMUM = 1000;
