@@ -7,6 +7,8 @@ public class Ex_02_05_Number_V3 {
         final long MINIMUM_DIVIDEND = 1_000_000_000_000L;
         final long MINIMUM_DIVISOR = 10_000_000;
 
+
+
         long dividend;
         long divisor;
         double quotient;
@@ -14,7 +16,7 @@ public class Ex_02_05_Number_V3 {
 
         System.out.println("Enter a 13-digit whole number:");
         dividend = keyboard.nextLong();
-        if (dividend <= MINIMUM_DIVIDEND) {
+        if (dividend < MINIMUM_DIVIDEND) {
             System.out.println("This number is too small.");
             return;
         }

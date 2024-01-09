@@ -13,8 +13,19 @@ public class Ex_04_08_Palindrome {
 
         System.out.println(input);
         System.out.println(rInput);
+
+        //first method
+
         if(input.compareTo(rInput) == 0){
             System.out.println("equel");
         }
+
+        //second method
+        System.out.println(rInput.toString().equals(input.toString()));
+
+
+
+
+
     }
 }

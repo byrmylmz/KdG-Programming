@@ -15,14 +15,12 @@ public class Ex_04_04_Alphabetical_Order {
         secondLine = input.nextLine().strip();
 
         if(firstLine.compareTo(secondLine)>0){
-
-            String temp = firstLine;
+            String temp =firstLine;
             firstLine=secondLine;
             secondLine=temp;
-
         }
+        System.out.println(firstLine.compareTo(secondLine));
         System.out.println(firstLine + " " + secondLine);
-
 
 
     }
