@@ -1,0 +1,43 @@
+form {
+    width: 32em;
+    text-align: center;
+    font: 20px sans-serif;
+}
+
+form > fieldset {
+    text-align: left;
+}
+
+/*
+
+PART 3
+
+form > fieldset > button:last-child {
+    float: right;
+}
+*/
+
+label {
+    display: inline-block;
+    width: 8em;
+}
+
+input[type="text"], input[type="number"], select {
+    width: 20em;
+    font: 20px sans-serif;
+}
+
+button {
+    width: 10em;
+    font: 20px sans-serif;
+    margin-top: 0.6em;
+}
+
+form > button {
+    text-align: center;
+}
+
+form div {
+    padding-top: 0.3em;
+    padding-bottom: 0.3em;
+}

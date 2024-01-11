@@ -1,0 +1,41 @@
+body {
+    background-color: lightsteelblue;
+    color: navy;
+}
+
+h1 {
+    text-shadow: 4px 4px 6px white;
+}
+
+h2 {
+    color: rgba(255, 0, 0, 0.5);
+}
+
+li:first-child {
+    color: red;
+}
+
+li:nth-child(n+2) { /* second one and each subsequent one */
+    color: green;
+}
+
+li:nth-child(0n+3) { /* only the third */
+    color: blue;
+}
+
+li:nth-child(4) { /* only the fourth (no need to specify 'n') */
+    color: cyan;
+}
+
+li:nth-child(0n+5) {
+    color: magenta;
+}
+
+li:last-child {
+    color: yellow;
+}
+
+ul {
+    list-style-image: url('../icons/bullet_red.png');
+    font-size: 1.25em;
+}

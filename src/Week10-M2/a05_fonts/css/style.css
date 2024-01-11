@@ -1,0 +1,25 @@
+.sans-serif {
+    font-family: sans-serif;
+}
+
+.serif {
+    font-family: serif;
+}
+
+.verdana {
+    font-family: Verdana;
+}
+
+.monospace {
+    font-family: monospace;
+}
+
+@font-face {
+    font-family: nerkoOne;
+    src: url(../fonts/NerkoOne-Regular.ttf);
+}
+
+/* https://fonts.google.com/specimen/Nerko+One#standard-styles */
+.nerko-one {
+    font-family: nerkoOne;
+}

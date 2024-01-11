@@ -12,9 +12,17 @@ public class Rectangle extends Shape implements Printable {
         this.height=height;
 
     }
+    public void testAbs(){
+        System.out.println("rectagnle");
+    }
+
+    public double getArea(){return height*width;}
 
     @Override
     public void print() {
-
+        System.out.println("Rectangle");
+        System.out.println("========");
+        System.out.printf("Position: (%d, %d) %n ",getX(),getY());
+        System.out.printf("Area: %f %n",getArea());
     }
 }

@@ -14,6 +14,8 @@ public abstract class Shape {
 
     }
 
+    public abstract void testAbs();
+
     public Integer getX() {
         return x;
     }

@@ -1,0 +1,48 @@
+.navigation {
+    list-style: none;
+    padding: 0;
+}
+
+.navigation a {
+    background: black;
+    text-decoration: none;
+    display: block;
+    padding: 1em;
+    color: white;
+    font-weight: bold;
+    font-family: Arial,sans-serif;
+    text-align: center;
+    border-top: 1px solid rgba(255, 255, 255, 0.3);
+}
+
+.subNav{
+    display:none;
+}
+.subNav a{
+    font-weight: normal;
+    background: #005715;
+}
+
+.mainNav a:hover {
+    background: #005715;
+}
+
+.subNav a:hover {
+    background: #207735;
+}
+
+.navigation li:hover .subNav{
+    display:block;
+}
+
+@media all and (min-width: 800px) {
+     .mainNav{
+        display: flex;
+    }
+    .mainNav li{
+        flex: auto;
+    }
+}
+
+
+

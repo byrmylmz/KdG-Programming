@@ -1,0 +1,13 @@
+body {
+    font-family: Verdana, Arial, Helvetica, sans-serif;
+	padding: 20px;
+}
+
+button {
+	background-color: gold;
+	color: blue;
+	font-size: 200%;
+	padding: 10px;
+	box-shadow: 10px 10px 5px #888;
+	border-radius: 10px;
+}

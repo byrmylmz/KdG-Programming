@@ -1,0 +1,29 @@
+
+.body{
+    display: flex;
+}
+section,article{
+    padding: 5px;
+    margin: 5px;
+
+
+
+
+}
+
+article{
+
+
+    background: blue;
+}
+
+ article > section {
+
+    background-color: yellow;display: flex;
+
+}
+
+ article > section > section {
+
+    background-color: yellowgreen;
+}

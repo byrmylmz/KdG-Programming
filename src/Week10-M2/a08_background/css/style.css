@@ -1,0 +1,4 @@
+body {
+    background: #ffff99 url('../images/cat.jpg') no-repeat fixed center center;
+    background-size: cover; /* Fills the entire browser window */
+}

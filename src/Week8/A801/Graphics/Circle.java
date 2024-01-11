@@ -9,6 +9,10 @@ public class Circle extends Shape implements Printable {
 
     }
 
+    public void testAbs(){
+        System.out.println("circle");
+    }
+
     public Circle(Integer radius,Integer x,Integer y) {
         super(x,y);
         setRadius(radius);
