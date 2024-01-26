@@ -14,7 +14,8 @@ public class Ex_03_08_Divisible {
         firstDivider = keyboard.nextInt();
         if (firstDivider == 0) {
             check = false;
-        } ;
+        };
+
         System.out.println("Enter the second divider:");
         secondDivider = keyboard.nextInt();
 

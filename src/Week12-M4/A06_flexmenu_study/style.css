@@ -1,6 +1,5 @@
 .navigation {
     list-style: none;
-    background: black;
     padding: 0;
 }
 
@@ -19,6 +18,15 @@
 .navigation a:hover {
     background: #005715;
 }
+
+.navigation.subNav{
+    display: none;
+}
+
+.navigation li:hover .subNav{
+    display: block;
+}
+
 @media all and (min-width: 800px) {
     .navigation {
         display: flex;
